@@ -1,9 +1,11 @@
 import React from "react";
 
-export default const Button = ({onToggle}) => {
+const Button = ({onToggle}) => {
     return (
         <div>
             <button onClick={onToggle}>Click</button>
         </div>
     )
 }
+
+export default Button;
