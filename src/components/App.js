@@ -1,17 +1,10 @@
 import React, {Component, useState} from "react";
 import "./../styles/App.css";
-import { Button } from "./Button"
 
 function App() {
-  const [isShow, setIsShow] = useState(false);
-  const handleClick = () => {
-    setIsShow(!isShow);
-  } 
-
   return (
     <div id="main">
-      <Button onToggle={handleClick} />
-      {isShow && <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
+      // Do not alter the main div
     </div>
   );
 }
