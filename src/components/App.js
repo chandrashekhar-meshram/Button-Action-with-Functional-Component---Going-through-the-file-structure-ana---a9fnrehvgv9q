@@ -12,7 +12,7 @@ function App() {
      
       <button id="click" onClick={showFn}>Show</button>
       {
-        show && (<p id="para"> Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>)
+        show && (<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>)
       }
       
     </div>
